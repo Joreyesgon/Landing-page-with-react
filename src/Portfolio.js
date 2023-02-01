@@ -1,7 +1,8 @@
 import React from "react";
 
 const Portfolio = () => {
-    return (<div className="container mt-5">
+    return (
+        <div className="container mt-5">
             <div className="row title">
                 <h1 className="header-title d-flex justify-content-star">Portfolio</h1>
                 <p className="header-text text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dicta modi dolorem totam vitae accusantium officiis eligendi necessitatibus sunt consequatur, exercitationem voluptates numquam. Cum temporibus sit laboriosam dignissimos quaerat fuga.</p>
@@ -35,7 +36,8 @@ const Portfolio = () => {
                     </div>
                 </div>
             </div>
-        </div>)
+        </div>
+    );
 }
 
 export default Portfolio;
