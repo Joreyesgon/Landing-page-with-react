@@ -1,10 +1,10 @@
 import './App.css';
-import Navbar from './Navbar';
-import CardImage from './CardImage';
-import Services from './Services';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Footer from './Footer';
+import Navbar from './js/components/Navbar';
+import CardImage from './js/components/CardImage';
+import Services from './js/components/Services';
+import Portfolio from './js/components/Portfolio';
+import Contact from './js/components/Contact';
+import Footer from './js/components/Footer';
 
 function App() {
   return (
